@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // network, no clock, no randomness.
 
 const LINE =
-  "My sleep app recorded a man whispering my name at 3:12 three nights running, so I played it to my brother and he said that was him, sleep-talking, from when he stayed in June. He moved out in June, and last night there are two voices on it, whispering to each other, and one of them is mine.";
+  "My sleep app recorded a man whispering my name at 3:12 three nights running, so I played it to my brother and he went pale and said that was him, sleep-talking, back when he stayed in June. He moved out in June, and last night's recording has two voices whispering back and forth, and one of them is mine.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 400 || LINE.includes("\n") || !/\S/.test(LINE)) {
